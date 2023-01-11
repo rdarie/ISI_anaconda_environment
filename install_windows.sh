@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # activate conda
-export ANACONDA_ROOT='/c/anaconda3'
+export ANACONDA_ROOT='/c/Users/Radu/anaconda3'
 . "${ANACONDA_ROOT}/etc/profile.d"/conda.sh
 
 export GitRepoRoot="https://github.com/rdarie/"
@@ -61,8 +61,8 @@ done
 RepoList=(\
 "pyqtgraph" \
 "ephyviewer" \
-"pyacq" \
 "ISI_Vicon_DataStream_MOCK" \
+"pyacq" \
 )
 
 RepoOptsList=(\
